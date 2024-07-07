@@ -1,0 +1,133 @@
+body, table, input, textarea {
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+}
+
+body {
+    background-color: #F5F5F5; /* Light gray background */
+    text-align: center;
+}
+
+#container {
+    width: 80%; /* Adjusted width for responsiveness */
+    max-width: 800px; /* Added max-width for larger screens */
+    padding: 20px;
+    background-color: #FFFFFF;
+    margin: auto;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+#banner {
+    width: 100%;
+    height: 70px;
+    border: 1px solid #E0E0E0; /* Lighter border color */
+    text-align: center;
+    padding-top: 20px; /* Reduced padding */
+    background-color: #FAFAFA;
+    margin-bottom: 20px; /* Increased margin for better separation */
+    border-radius: 8px;
+}
+
+#banner_text {
+    font-size: 24px; /* Increased font size */
+    font-weight: bold;
+    color: #333333; /* Darker text color */
+}
+
+#banner_subtext {
+    margin-top: 10px; /* Increased margin */
+    color: #777777; /* Softer text color */
+    font-weight: normal; /* Normal weight for subtext */
+}
+
+#navigation {
+    margin-top: 20px; /* Increased margin */
+    border-top: 1px solid #DDDDDD;
+    padding: 10px; /* Increased padding */
+}
+
+#navigation a {
+    color: #333333; /* Darker text color */
+    font-weight: bold;
+    margin: 0 15px; /* Reduced margin for links */
+    text-decoration: none; /* Remove underline */
+}
+
+a, a:hover, a:active, a:visited {
+    color: #333333; /* Darker text color */
+}
+
+div.title {
+    font-weight: bold;
+    border-bottom: 2px solid #FFA500;
+    padding: 10px;
+    padding-left: 0; /* Removed left padding */
+    margin-bottom: 10px; /* Increased margin */
+}
+
+div.content {
+    border: 1px solid #DDDDDD; /* Lighter border color */
+    margin: 0 0 20px 0; /* Increased bottom margin */
+    padding: 15px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+input, textarea {
+    border: 1px solid #DDDDDD; /* Lighter border color */
+    background-color: #F9F9F9; /* Slightly darker background */
+    padding: 8px; /* Increased padding */
+}
+
+div.success {
+    border: 1px solid #00AA00;
+    background-color: #E8F5E9; /* Light green background */
+    color: #007E33; /* Dark green text color */
+    padding: 10px;
+    margin-bottom: 20px; /* Increased margin */
+}
+
+div.error {
+    border: 1px solid #EE0000;
+    background-color: #FFEBEE; /* Light red background */
+    color: #C62828; /* Dark red text color */
+    padding: 10px;
+    margin-bottom: 20px; /* Increased margin */
+}
+
+.tr_title td {
+    border-bottom: 1px solid #DDDDDD;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Improved table borders */
+}
+
+td {
+    padding: 10px; /* Increased padding */
+    border-bottom: 1px solid #DDDDDD;
+    font-family: Arial, sans-serif;
+    font-size: 11px; /* Increased font size */
+}
+
+a.button span {
+    display: inline-block; /* Improved button display */
+    padding: 8px 16px; /* Increased padding */
+    background-color: #FFFFFF;
+    border: 1px solid #AAAAAA;
+    color: #333333; /* Darker text color */
+    margin-right: 5px; /* Reduced margin */
+    font-family: Arial, sans-serif;
+    font-size: 11px; /* Increased font size */
+    text-decoration: none; /* Remove underline */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+a.button span:hover {
+    background-color: #E0E0E0; /* Lighter background on hover */
+    border-color: #999999; /* Lighter border on hover */
+}
