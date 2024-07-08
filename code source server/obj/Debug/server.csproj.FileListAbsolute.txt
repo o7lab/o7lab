@@ -1,0 +1,5 @@
+C:\Users\M4x123\Documents\Reflector\Disassembler\server\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\M4x123\Documents\Reflector\Disassembler\server\bin\Debug\server.exe
+C:\Users\M4x123\Documents\Reflector\Disassembler\server\bin\Debug\server.pdb
+C:\Users\M4x123\Documents\Reflector\Disassembler\server\obj\Debug\server.exe
+C:\Users\M4x123\Documents\Reflector\Disassembler\server\obj\Debug\server.pdb

